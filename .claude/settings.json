@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Edit(src/**)",
+      "Edit(tests/**)",
+      "Write(src/**)",
+      "Write(tests/**)",
+      "Edit(PLAN.md)",
+      "Bash(npm run test *)",
+      "Bash(npm test *)",
+      "Bash(npx vitest *)",
+      "Bash(npm run lint *)",
+      "Bash(npm run build)",
+      "Bash(npm run dev)",
+      "Bash(npx tsc *)",
+      "Bash(git add *)",
+      "Bash(git diff *)",
+      "Bash(git log *)",
+      "Bash(git branch *)",
+      "Bash(git checkout *)"
+    ],
+    "ask": [
+      "Bash(git commit *)",
+      "Bash(git push *)",
+      "Bash(npm install *)",
+      "Bash(rm *)"
+    ]
+  }
+}
