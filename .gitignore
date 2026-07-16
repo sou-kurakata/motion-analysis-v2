@@ -43,3 +43,17 @@ Thumbs.db
 
 # Claude Code local settings
 .claude/settings.local.json
+
+# Media test fixtures (videos / images)
+tests/analysis/images/
+*.mp4
+*.mov
+*.avi
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
+
+# 実データのフィクスチャ(身長・ランドマークなど個人の計測データを含むためコミットしない)
+tests/fixtures/
